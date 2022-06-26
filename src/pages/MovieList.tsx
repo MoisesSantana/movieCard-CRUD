@@ -46,7 +46,7 @@ function MovieList() {
           </section>
 
           <Link
-            className="flex justify-center items-center bg-gradient-to-b from-green-400 to-green-500 py-3 mt-10 rounded-sm text-slate-50 font-semibold"
+            className="flex justify-center items-center bg-gradient-to-b from-green-400 to-green-500 py-3 rounded-sm text-slate-50 font-semibold fixed bottom-0 inset-x-0"
             to="/movies/new"
           >
             Add new movie
