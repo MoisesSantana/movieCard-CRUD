@@ -13,7 +13,7 @@ type TMOVIEOBJECT = {
 
 localStorage.setItem("movies", JSON.stringify(data));
 
-const readMovies = () => JSON.parse(localStorage.getItem("movies"));
+const readMovies = () => JSON.parse(localStorage.getItem("movies") as string);
 
 const saveMovies = (movies: Array<TMOVIEOBJECT>) =>
   localStorage.setItem("movies", JSON.stringify(movies));
